@@ -1,4 +1,5 @@
-.attribution { font-size: 11px; text-align: center; margin-top: 30px;}
+.attribution { font-size: 11px; text-align: center;position:fixed;
+bottom:0; left:50%;transform: translateX(-50%);}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
@@ -12,22 +13,28 @@ body{
     display:flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
     min-height: 100vfh;
+    margin-top:75px;
    
     
 }
 
 .card-body{
-    height:400px;
-    width:250px;
+    
+    top:30%;
+    height:550px;
+    width:350px;
+    flex-wrap: wrap;
     background-color:hsl(0, 0%, 100%);
     margin: auto;
-    display:flex;
+    flex: 0 1 auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 5px;
+    padding-top: 15px;
     border-radius:15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     
@@ -36,8 +43,9 @@ body{
 }
 
 .txt{
-    padding-left: 15px;
-    padding-right:15px;
+    padding-left: 30px;
+    padding-right:30px;
+    
     
 }
 
